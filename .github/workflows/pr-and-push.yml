@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hi
-        run: echo "Hello World on pull_request and push!"
+        run: |
+          echo "Hello World on pull_request and push!"
+          cat hello.txt
