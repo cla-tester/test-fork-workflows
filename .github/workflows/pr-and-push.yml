@@ -1,0 +1,10 @@
+name: pr-and-push
+on:
+  - pull_request
+  - push
+jobs:
+  pr-and-push-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: hi
+        run: echo "Hello World on pull_request and push!"

@@ -1,8 +1,8 @@
-name: hello-world
+name: push
 on: push
 jobs:
-  ci:
+  push-check:
     runs-on: ubuntu-latest
     steps:
       - name: hi
-        run: echo "Hello World!"
+        run: echo "Hello World on push!"
