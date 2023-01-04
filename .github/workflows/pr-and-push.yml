@@ -6,6 +6,7 @@ jobs:
   pr-and-push-check:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: hi
         run: |
           echo "Hello World on pull_request and push!"
